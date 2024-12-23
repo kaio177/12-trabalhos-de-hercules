@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #15090950;
+}
+a {
+  float: left;
+  display: block;
+  color: #ec1216b5;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+p {
+  margin: 5px 5px;
+  padding: 20px;
+  font-family: serif;
+  font-size: 30px;
+}
