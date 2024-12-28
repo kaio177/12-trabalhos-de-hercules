@@ -10,16 +10,24 @@ button {
   padding: 14px 20px;
   margin: 8px 0;
   cursor: pointer;
+  width: 100%;
+  border-radius: 12px;
+  transition-duration: 1s;
+}
+button:hover {
+  background-color: lightgrey;
 }
 a {
   float: left;
   display: block;
   color: #ec1216b5;
   text-decoration: none;
+  background-color: #720d86;
 }
 img {
-  width: 100%;
+  width: 80%;
   height: auto;
+  display: flex;
 }
 p {
   margin: 5px 5px;
@@ -28,7 +36,6 @@ p {
   font-size: 30px;
 }
 .navbar {
-  background-color: #720d86;
   overflow: hidden;
 }
 .navbar a {
@@ -50,7 +57,7 @@ p {
 #geriao,
 #maca,
 #cerbero,
-#menu{
+#menu {
   margin: 20px 20px;
   color: purple;
 }
